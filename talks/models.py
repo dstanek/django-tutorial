@@ -80,7 +80,15 @@ class Category(models.Model):
             return str(self)
 
 
+class TalkManager(models.Manager):
+
+    def all_approved(self):
+        return self.get_query_set().filter(approved=True)
+
+
 class Talk(models.Model):
+
+    objects = TalkManager()
 
     title = models.CharField(max_length=255)
 
