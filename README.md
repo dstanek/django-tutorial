@@ -111,10 +111,6 @@ ol' "cmd" in Windows.)
 
       $ git reset --hard ex00
 
-  **NOTE:** This won't do anything yet; we're rebuilding the repository right
-  now for optimal clarity and so the code and tags don't quite exist here.
-  Check back soon!
-
 You should now be ready for the tutorial!
 
 
